@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <div id="content-container">
+
+    <!--Phone's pictures section-->
+    <section class="phones">
+      <img src="./img/phones.png" alt="Phone displaying Instagram photos" class="phone-image">
+      <div class="display-phone">
+        <img class="picture" src="./img/photo-1.png" alt="Photo 1">
+        <img class="picture" src="./img/photo-2.png" alt="Photo 2">
+        <img class="picture" src="./img/photo-3.png" alt="Photo 3">
+        <img class="picture" src="./img/photo-4.png" alt="Photo 4">
+        <img class="picture" src="./img/photo-5.png" alt="Photo 5">
+      </div>
+    </section>
+
+    <!--User's log in section-->
+    <section class="user">
+
+      <div class="login-container">
+
+        <!--Instagram Logo-->
+        <div class="instagram-logo-box">
+          <img class="instagram-logo" src="./img/instagram-logo.png" alt="Instagram Logo">
+        </div>
+
+        <!--Form Login-->
+        <form id="login-post" method="POST">
+          <div class="inputs-container">
+            <input type="text" name="username" placeholder="Phone number, username or email" required>
+          </div>
+          <div class="inputs-container">
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <button type="button" href="https://www.instagram.com/"   class="login-button">Log In</button>
+
+          <div class="or-container">
+            <div class="line"></div>
+            <div class="or">OR</div>
+            <div class="line"></div>
+          </div>
+
+          <!--Facebook login-->
+          <div class="facebook-container">
+            <a class="facebook-login" href="./facebook/index.html"><img class="facebook-logo"
+                src="./img/facebook-logo.png" alt="Facebook Logo">Log in with Facebook</a>
+          </div>
+        </form>
+
+        <!--Password recovery-->
+        <a class="password-forgot" href="https://www.instagram.com/accounts/password/reset/" target="_blank">Forgot password?</a>
+      </div>
+
+      <!--Sign up-->
+      <div class="signup-container">
+        <p>Don't have an account? <a class="signup" href="https://www.instagram.com/accounts/emailsignup/" target="_blank">Sign up</a></p>
+      </div>
+
+      <!--App's download-->
+      <div class="get-container">
+        <p>Get the app.</p>
+        <div class="download-container">
+          <a class="download-appstore" href="https://apps.apple.com/us/app/instagram/id389801252" target="_blank"><img class="appstore"
+              src="./img/applestore-logo.png" alt="Download on the App Store"></a>
+          <a class="download-googleplay" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D0876B739-171A-457D-A0FE-E687EBBB25C3%26utm_campaign%3DsignupPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1" target="_blank"><img class="googleplay"
+              src="./img/googleplay-logo.png" alt="Get it on Google Play"></a>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer class="page-footer">
+
+    <div class="links-container">
+      <ul class="links-list">
+        <li>
+          <a class="link" href="#" target="_blank">ABOUT</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">PRESS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">API</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">JOBS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">PRIVACY</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">TERMS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">LOCATIONS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">TOP ACCOUNTS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">HASHTAGS</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">LANGUAGE</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-span-container">
+      <span class="footer-span">
+        © 2020 INSTAGRAM FROM FACEBOOK
+      </span>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
